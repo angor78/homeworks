@@ -1,3 +1,61 @@
-.message {
+.Message {
+    width: 300px;
+    margin: 30px;
+    padding: 10px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns:30% 60%;
+    background-color: lightgreen;
+    box-shadow: 0 0 13px #333;
+}
 
+.avatar {
+    display: block;
+    margin: auto;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; /* Радиус скругления */
+    box-shadow: 0 0 0 3px green, 0 0 13px #333; /* Параметры теней */
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.content_bubble {
+
+}
+.content:before {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 0;
+    right:100%;
+    bottom: 0;
+    border-top: 10px solid ;
+    border-left: 10px solid ;
+    border-right: 10px solid ;
+    border-bottom: 10px solid ;
+    border-color:transparent  rgba(0, 0, 0, 0.7)   rgba(0, 0, 0, 0.7) transparent;
+}
+
+.content h4 {
+    color: darkorange;
+    margin: 0;
+}
+
+.content p {
+    margin: 0;
+    color: whitesmoke;
+}
+
+.content p:last-child {
+    text-align: end;
 }
