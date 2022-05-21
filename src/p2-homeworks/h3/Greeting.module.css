@@ -1,27 +1,18 @@
 .someClass {
     margin-top: 30px;
+    margin-left: 30px;
     display: grid;
     grid-template-columns:70% 20%;
     gap: 10px;
-    width: 350px;
+    width: 250px;
     padding: 15px;
     background-color: lightgreen;
     box-shadow: 0 0 13px #333;
 }
-.errorTitle{
-    color: darkorange;
-    margin: 0;
+.totalBlock{
+    width: 100px;
+    padding: 2px 8px;
+    color:darkorange;
     background-color: rgba(0, 0, 0, 0.7);
-    padding: 5px 10px;
-}
-input {
-    outline: none;
 }
 
-.error {
-    border: 1px solid red;
-}
-
-.notErrors {
-    border: 1px solid darkgreen;
-}

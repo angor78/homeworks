@@ -9,7 +9,7 @@
 .affair {
     display: grid;
     grid-template-columns:70% 30%;
-    width: 150px;
+    width: 180px;
     padding: 10px;
     background-color: lightgreen;
     box-shadow: 0 0 13px #333;
@@ -21,13 +21,9 @@
     background-color: rgba(0, 0, 0, 0.7);
     padding: 5px 10px;
 }
-
-.affair button {
-    border:none;
-    padding:0;
-    margin:0;
-    margin-left: 5px;
-    font-size:15px;
-    color:gray;
-    background-color:transparent;
+.affair button{
+    box-shadow: none;
+}
+.affair button:hover {
+    color: darkorange;
 }
