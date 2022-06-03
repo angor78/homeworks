@@ -7,6 +7,9 @@
     background-color: lightgreen;
     box-shadow: 0 0 13px #333;
 }
+.default:active{
+    box-shadow:none;
+}
 
 .default:disabled {
     border: none;
