@@ -5,14 +5,17 @@ import App from './p1-main/m1-ui/u1-app/App'
 import * as serviceWorker from './serviceWorker'
 import {Provider} from "react-redux";
 import store from "./p2-homeworks/h10/bll/store";
+import { ChakraProvider } from '@chakra-ui/react'
 
 ReactDOM.render(
-    <React.StrictMode>
-      <Provider store={store}>
+  <React.StrictMode>
+    <Provider store={store}>
+      <ChakraProvider>
         <App/>
-      </Provider>
-    </React.StrictMode>,
-    document.getElementById("root")
+      </ChakraProvider>
+    </Provider>
+  </React.StrictMode>,
+  document.getElementById("root")
 )
 
 // If you want your app to work offline and load faster, you can change
