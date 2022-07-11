@@ -15,13 +15,11 @@ const SuperDoubleRange: React.FC<SuperDoubleRangePropsType> = (
 ) => {
 
   return (
-    <RangeSlider 
-                 value={[min,max]}
-                 onChange={(value: number[]) =>onChangeRange([value[0],value[1]])}
-                 w={'197px'}
-                 >
+    <RangeSlider value={[min, max]}
+                 onChange={(value: number[]) => onChangeRange([value[0], value[1]])}
+                 w={'197px'}>
       <RangeSliderTrack h={'6px'} border={'1px'} borderColor={"gray"}>
-        <RangeSliderFilledTrack />
+        <RangeSliderFilledTrack/>
       </RangeSliderTrack>
       <RangeSliderThumb index={0}/>
       <RangeSliderThumb index={1}/>
