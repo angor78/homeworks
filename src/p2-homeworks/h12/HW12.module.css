@@ -21,3 +21,11 @@
 .some-text {
     color: darkslateblue;
 }
+
+.blue {
+    background: blue;
+}
+
+.blue-text {
+    color: whitesmoke;
+}
