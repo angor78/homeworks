@@ -8,8 +8,8 @@
 
 .affair {
     display: grid;
-    grid-template-columns:70% 30%;
-    width: 180px;
+    grid-template-columns:60% 40%;
+    width: 200px;
     padding: 10px;
     background-color: lightgreen;
     box-shadow: 0 0 13px #333;
@@ -26,4 +26,5 @@
 }
 .affair button:hover {
     color: darkorange;
+    background-color: blue;
 }
